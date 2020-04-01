@@ -1,0 +1,93 @@
+
+.header {
+    display: flex; 
+    flex-direction: row;
+    margin-left: 180px;
+}
+
+.header__navigation {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-end;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.header__image {
+    margin-right: 500px;
+}
+
+.header__navigation__item {
+    display: flex; 
+    margin-right: 35px;
+}
+
+.container1__first {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.container1__first__promo {
+    font-family: 'Lato', sans-serif;
+    margin-top:85px;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, green 0%,rgb(107,142,35) 35%,rgb(154,205,50) 100%);
+    display: flex; 
+    justify-content: center; 
+    padding: 10px;
+    margin-bottom: 30px;;
+    border-radius: 5px;
+}
+
+.container1__second{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.container1__about {
+    font-family: 'Lato', sans-serif;
+    font-size: 150%;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    padding: 10px;
+    line-height: 1.8;
+    color: lightslategray;
+}
+
+.container1__kiwi {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 50px;
+}
+
+
+.container2{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.container2__Webdesign {
+    font-family: 'Lato', sans-serif;
+    font-size: 110%;
+    color: grey;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+    
+.container2__Webdesign__Title {
+    margin-top: 60px;
+    font-size: 160%;
+    margin-bottom: 30px;
+    color:black;
+   
+}
+
+.button {
+    background-color: none;
+}
